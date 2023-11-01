@@ -3,7 +3,7 @@ import './App.css';
 import page1 from"./components/page1";
 import page2 from"./components/page2"; 
 import page3 from"./components/page3";
-import { BrowserRouter as Router, Route ,Link, Routes} from "react-router-dom";
+import { BrowserRouter  as Router, Route ,Link, Routes} from "react-router-dom";
 
 function App() {
   return (
