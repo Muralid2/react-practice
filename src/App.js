@@ -4,13 +4,13 @@ import page1 from"./components/page1";
 import page2 from"./components/page2"; 
 import page3 from"./components/page3";
 import { BrowserRouter  as Router, Route ,Link, Routes} from "react-router-dom";
-
+   
 function App() {
   return (
     <div className="App">
 <Router>
   <Routes>
-  <Route exact path="/" element={<h1>Home Page</h1>} />
+  <Route exact path="/"           element={<h1>Home Page</h1>} />
     <Route exact path="page1" element={<page1 />} />
     <Route exact path="page2" element={<page2 />} />
     <Route exact path="page3" element={<page3 />} />
